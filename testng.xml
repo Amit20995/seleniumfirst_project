@@ -3,7 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Explicitwait.Wait"/>
+      <class name="mavenerror.Repository"/>
+      <class name="Explicitwait.GetRect"/>
+      <class name="Explicitwait.ChromeHeadless"/>
       <class name="mavenerror.FaceBookLogin"/>
+      <class name="Explicitwait.ReadProperties"/>
+      <class name="Explicitwait.NewTab"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
